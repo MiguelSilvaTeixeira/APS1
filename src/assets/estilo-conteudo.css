@@ -51,17 +51,17 @@ ul {
 }
 
 /*Botões de voltar e próximo*/
-.link-proximo, .link-voltar, .legenda-proximo, .legenda-energia-geotermica {
+.link-proximo, .link-voltar, .legenda-proximo, .legenda-proximo-energia-geotermica {
     position:fixed;
     margin: 0;
     padding: 0;
 }
 
-.link-proximo, .legenda-proximo, .legenda-energia-geotermica {
+.link-proximo, .legenda-proximo, .legenda-proximo-energia-geotermica {
     transform: translate(-50%,-50%);
 }
 
-.legenda-proximo, .legenda-energia-geotermica {
+.legenda-proximo, .legenda-proximo-energia-geotermica {
     font-size: 18px;
     text-align: center;
 }
@@ -94,7 +94,7 @@ ul {
     left: 93%;
 }
 
-.legenda-energia-geotermica {
+.legenda-proximo-energia-geotermica {
     top: 80%;
     left: 93%;
 }
