@@ -61,7 +61,7 @@ ul {
     width: 50%;
 }
 
-.link-proximo, .link-voltar, .legenda-proximo {
+.link-proximo, .link-voltar, .legenda-proximo, .legenda-energia-geotermica {
     text-decoration: none;
     position:fixed;
     margin: 0;
@@ -92,6 +92,14 @@ ul {
 }
 
 .legenda-proximo {
+    font-size: 18px;
+    text-align: center;
+    top: 600px;
+    left: 1290px;
+    transform: translate(-50%,-50%);
+}
+
+.legenda-energia-geotermica {
     font-size: 18px;
     text-align: center;
     top: 620px;
