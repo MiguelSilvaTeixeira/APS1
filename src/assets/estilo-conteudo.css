@@ -1,6 +1,6 @@
 main {
     display: block;
-    max-width: 1000px;
+    max-width: 1300px;
     min-width: 400px;
     background-color: rgb(208, 208, 208);
     padding: 30px 50px 30px 50px;
@@ -19,7 +19,7 @@ h1 {
 }
 
 .legenda {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 hr {
@@ -34,7 +34,7 @@ h2, h3 {
 
 p, li {
     padding: 2% 0 ;
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -50,22 +50,32 @@ ul {
     width: 50%;
 }
 
+/*Botões de voltar e próximo*/
 .link-proximo, .link-voltar, .legenda-proximo, .legenda-energia-geotermica {
     position:fixed;
     margin: 0;
     padding: 0;
 }
 
+.link-proximo, .legenda-proximo, .legenda-energia-geotermica {
+    transform: translate(-50%,-50%);
+}
+
+.legenda-proximo, .legenda-energia-geotermica {
+    font-size: 18px;
+    text-align: center;
+}
+
 .link-voltar {
     top: 110px;
-    left: 65px;
+    left: 115px;
 }
 
 .link-proximo {
     background-color: rgb(208, 208, 208);
     padding: 15px;
-    top: 68%;
-    left: 87%;
+    top: 72%;
+    left: 93%;
     border-radius: 100%;
 }
 
@@ -79,19 +89,12 @@ ul {
     width: 50px;
 }
 
-.legenda-proximo, .legenda-energia-geotermica {
-    font-size: 18px;
-    text-align: center;
-}
-
 .legenda-proximo {
-    top: 78%;
-    left: 89%;
-    transform: translate(-50%,-50%);
+    top: 79%;
+    left: 93%;
 }
 
 .legenda-energia-geotermica {
-    top: 79%;
-    left: 89%;
-    transform: translate(-50%,-50%);
+    top: 80%;
+    left: 93%;
 }

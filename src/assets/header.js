@@ -32,7 +32,7 @@ class Header extends HTMLElement {
                 
                 .navbar a {
                     position: relative;
-                    font-size: 16px;
+                    font-size: 18px;
                     color: #fff;
                     font-weight: 500;
                     text-decoration: none;
