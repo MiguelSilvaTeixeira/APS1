@@ -91,7 +91,7 @@ class Header extends HTMLElement {
                 <nav class="navbar">
                     <a href="home.html">Home</a>
                     <div class="dropdown">
-                        <a href="#">Energias Limpas</a>
+                        <a href="energia-solar.html">Energias Limpas</a>
                         <div class="dropdown-content">
                             <a href="energia-solar.html">Energia Solar</a>
                             <a href="energia-eolica.html">Energia Eólica</a>
@@ -101,7 +101,7 @@ class Header extends HTMLElement {
                             <a href="energia-ondas-mares.html">Energia das Ondas e Marés</a>
                         </div>
                     </div>
-                    <a href="#">Transportes Sustentáveis</a>
+                    <a href="trasportes-sustentaveis.html">Transportes Sustentáveis</a>
                     <a href="#">Sobre</a>
                 </nav>
             </header>  
