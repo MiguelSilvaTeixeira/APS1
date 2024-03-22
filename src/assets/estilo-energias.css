@@ -16,7 +16,7 @@ main {
     background-color: rgb(208, 208, 208);
     padding: 30px 50px 30px 50px;
     margin: 200px auto 0 auto;
-    height: 80%;
+    height: 100%;
     width: 100%;
     color: #000000;
 }
@@ -53,10 +53,48 @@ ul {
     padding-left: 10%;
 }
 
-img {
+.pesquisa-imagem {
     margin: auto;
     display: block;
     padding: 10px;
     height: 50%;
     width: 50%;
+}
+
+.link-proximo, .link-voltar, .legenda-proximo {
+    text-decoration: none;
+    position:fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.link-voltar {
+    top: 110px;
+    left: 65px;
+}
+
+.link-proximo {
+    background-color: rgb(208, 208, 208);
+    padding: 15px;
+    top: 500px;
+    left: 1255px;
+    border-radius: 100%;
+}
+
+.img-proximo {
+    height: 40px;
+    width: 40px;
+}
+
+.img-voltar {
+    height: 50px;
+    width: 50px;
+}
+
+.legenda-proximo {
+    font-size: 18px;
+    text-align: center;
+    top: 620px;
+    left: 1290px;
+    transform: translate(-50%,-50%);
 }
