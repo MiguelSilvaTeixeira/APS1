@@ -3,7 +3,7 @@ main.main {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("./img/img_home_bg.png");
+  background-image: url("../img/img_home_bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
