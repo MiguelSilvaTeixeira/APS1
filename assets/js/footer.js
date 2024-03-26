@@ -7,13 +7,14 @@ export class Footer extends HTMLElement {
         this.innerHTML = `
             <style>
                 footer>p {
-                    display: block;
+                    position: fixed;
+                    bottom: 0;
                     width: 100%;
+                    padding: 20px;
                     background-color: #0367A3;
                     text-align: center;
-                    color: #fff;                    
-                    padding: 20px;                    
                     font-size: 18px;
+                    color: #fff;
                 }
             </style>
             <footer>
