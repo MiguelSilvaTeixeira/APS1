@@ -12,7 +12,7 @@ export class Header extends HTMLElement {
                     left: 0;
                     width: 100%;
                     padding: 20px 100px;
-                    background: #0367A3;
+                    background: #3CB371;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
