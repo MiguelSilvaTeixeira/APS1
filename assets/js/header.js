@@ -1,10 +1,10 @@
 export class Header extends HTMLElement {
-    constructor() {
-        super();
-    }
+  constructor() {
+    super();
+  }
 
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
             <style>
                 .header {
                     position: fixed;
@@ -102,9 +102,10 @@ export class Header extends HTMLElement {
                         </div>
                     </div>
                     <a href="trasportes-sustentaveis.html">Transportes Sustentáveis</a>
+                    <a href="transportes-alternativos.html">Transportes Alternativos</a>
                     <a href="sobre.html">Sobre</a>
                 </nav>
             </header>  
         `;
-    }
+  }
 }
