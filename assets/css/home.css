@@ -3,7 +3,7 @@ main.main {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/img_home_bg.png");
+  background-image: url("../img/img_home_bg4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@ main.main {
 article.main-article {
   width: 50vw;
   height: 100vh;
-  background-color: hsla(214, 95%, 8%, 0.3);
+  background-color: hsla(134, 32%, 49%, 0.3);
   backdrop-filter: blur(1.2rem);
   display: flex;
   flex-direction: column;
@@ -52,11 +52,11 @@ div.article-content > a.btn-explorar {
   border-radius: 30px;
   text-decoration: none;
   color: white;
-  background-color: #011126;
+  background-color: #4a995a;
   transition: 0.2s;
 }
 
 div.article-content > a.btn-explorar:hover {
-  background-color: #1161b6;
+  background-color: #98cf97;
   transition: 0.2s;
 }

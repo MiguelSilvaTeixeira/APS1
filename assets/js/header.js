@@ -47,7 +47,7 @@ export class Header extends HTMLElement {
                     left: 0;
                     width: 0;
                     height: 2px;
-                    background: #fff;
+                    background: #23582ff5;
                     transition: .3s;
                 }
                 
@@ -79,7 +79,7 @@ export class Header extends HTMLElement {
                 }
                 
                 .dropdown-content a:hover {
-                    background-color: #0078c3;
+                    background-color: #79db686a;
                 }
                 
                 .dropdown:hover .dropdown-content {
