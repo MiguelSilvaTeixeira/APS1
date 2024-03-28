@@ -1,10 +1,10 @@
 main {
     display: block;
-    max-width: 1300px;
-    min-width: 400px;
+    max-width: 85%;
+    min-width: 40%;
     background-color: rgba(255, 255, 255, 0.681);
     padding: 30px 50px 30px 50px;
-    margin: 100px auto 30px auto;
+    margin: 85px auto 30px auto;
     height: 100%;
     width: 100%;
     color: #000000;
@@ -51,7 +51,7 @@ ul {
 }
 
 /*Botões de voltar e próximo*/
-.link-proximo, .link-voltar, .legenda-proximo, .legenda-proximo-energia-geotermica {
+.link-proximo, .link-voltar, .legenda-proximo, .legenda-proximo-energia-geotermica,.img-proximo {
     position:fixed;
     margin: 0;
     padding: 0;
@@ -62,27 +62,9 @@ ul {
 }
 
 .legenda-proximo, .legenda-proximo-energia-geotermica {
-    font-size: 17px;
+    font-size: 16px;
     text-align: center;
     color: #fff;
-}
-
-.link-voltar {
-    top: 110px;
-    left: 30px;
-}
-
-.link-proximo {
-    rotate: 180deg;
-    padding: 15px;
-    top: 72%;
-    left: 91%;
-    border-radius: 100%;
-}
-
-.img-proximo {
-    height: 50px;
-    width: 50px;
 }
 
 .img-voltar {
@@ -90,12 +72,30 @@ ul {
     width: 50px;
 }
 
-.legenda-proximo {
-    top: 90%;
-    left: 96.2%;
+.link-voltar {
+    top: 110px;
+    left: 30px;
 }
 
+/*Botão próximo*/
+.img-proximo {
+    height: 50px;
+    width: 50px;
+}
+
+.link-proximo {
+    rotate: 180deg;
+    top: 85.8%;
+    left: 97.8%;
+}
+
+.legenda-proximo {
+    top: 88.5%;
+    left: 96.4%;
+}
+
+/*Legenda da página energia.geotermica.html*/
 .legenda-proximo-energia-geotermica {
-    top: 80%;
-    left: 93%;
+    top: 92.5%;
+    left: 96.2%;
 }

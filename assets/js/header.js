@@ -91,7 +91,7 @@ export class Header extends HTMLElement {
                 <nav class="navbar">
                     <a href="home.html">Home</a>
                     <div class="dropdown">
-                        <a href="energia-solar.html">Energias Limpas</a>
+                        <a href="#">Energias Limpas</a>
                         <div class="dropdown-content">
                             <a href="energia-solar.html">Energia Solar</a>
                             <a href="energia-eolica.html">Energia Eólica</a>
