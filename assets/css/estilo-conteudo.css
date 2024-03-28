@@ -2,9 +2,9 @@ main {
     display: block;
     max-width: 1300px;
     min-width: 400px;
-    background-color: rgb(208, 208, 208);
+    background-color: rgba(255, 255, 255, 0.681);
     padding: 30px 50px 30px 50px;
-    margin: 300px auto 30px auto;
+    margin: 100px auto 30px auto;
     height: 100%;
     width: 100%;
     color: #000000;
@@ -62,26 +62,27 @@ ul {
 }
 
 .legenda-proximo, .legenda-proximo-energia-geotermica {
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
+    color: #fff;
 }
 
 .link-voltar {
     top: 110px;
-    left: 115px;
+    left: 30px;
 }
 
 .link-proximo {
-    background-color: rgb(208, 208, 208);
+    rotate: 180deg;
     padding: 15px;
     top: 72%;
-    left: 93%;
+    left: 91%;
     border-radius: 100%;
 }
 
 .img-proximo {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 
 .img-voltar {
@@ -90,8 +91,8 @@ ul {
 }
 
 .legenda-proximo {
-    top: 79%;
-    left: 93%;
+    top: 90%;
+    left: 96.2%;
 }
 
 .legenda-proximo-energia-geotermica {

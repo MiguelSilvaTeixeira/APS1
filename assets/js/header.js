@@ -7,12 +7,12 @@ export class Header extends HTMLElement {
     this.innerHTML = `
             <style>
                 .header {
-                    position: fixed;
+                    display: block;
                     top: 0;
                     left: 0;
                     width: 100%;
                     padding: 20px 100px;
-                    background: #3CB371;
+                    background: #3e853c00;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
@@ -65,13 +65,13 @@ export class Header extends HTMLElement {
                     display: none;
                     position: absolute;
                     left: 40px;
-                    background-color: #0367A3;
+                    background-color: rgba(220, 220, 220, 1);
                     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.566);
                     z-index: 1;
                 }
                 
                 .dropdown-content a {
-                    color: #fff;
+                    color: black;
                     padding: 12px 30px;
                     margin: 10px;
                     text-decoration: none;
