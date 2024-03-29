@@ -32,8 +32,15 @@ h2, h3 {
     padding: 15px 0 0 0;
 }
 
-p, li {
+p {
     padding: 2% 0;
+}
+
+li {
+    padding: 1% 0;
+}
+
+p, li {
     font-size: 20px;
     text-align: justify;
 }
