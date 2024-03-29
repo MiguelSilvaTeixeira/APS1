@@ -24,7 +24,7 @@ export class Footer extends HTMLElement {
                 }
             </style>
             <footer>
-                <a href="#"><img src="../assets/img/seta-para-cima.png" alt="Voltar ao topo" id="footer-top"></a>             
+                <abbr title="Topo"><a href="#"><img src="../assets/img/seta-para-cima.png" alt="Voltar ao topo" id="footer-top"></a></abbr>                             
                 <p> Copyright &copy; 2024</p>
             </footer>
         `;
