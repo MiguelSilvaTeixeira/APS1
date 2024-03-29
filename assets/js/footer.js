@@ -9,18 +9,23 @@ export class Footer extends HTMLElement {
                 footer {
                     text-align: center;
                     margin-bottom: 20px;
-                }        
-                footer>p {
-                    display: inline-block;
-                    vertical-align: middle;
-                    font-size: 18px;
-                    color: #fff;
-                }        
+                    color: rgba(255, 255, 255, 0);
+                }
+                footer a {
+                    color: inherit;
+                }
                 #footer-top {
                     height: 30px;
                     width: 30px;
                     vertical-align: middle;
                     margin-left: 10px;
+                    text-decoration: none;
+                }
+                footer p {
+                    display: inline-block;
+                    vertical-align: middle;
+                    font-size: 18px;
+                    color: #fff;
                 }
             </style>
             <footer>
