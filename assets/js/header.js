@@ -7,7 +7,7 @@ export class Header extends HTMLElement {
     this.innerHTML = `
             <style>
                 .header {
-                    display: block;
+                    position: fixed;
                     top: 0;
                     left: 0;
                     width: 100%;
@@ -16,9 +16,14 @@ export class Header extends HTMLElement {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    transition: .35s;
                     z-index: 100;
                 }
                 
+                .header.rolagem {
+                    background: #3e853c;
+                }
+
                 .logo {
                     font-size: 32px;
                     color: #fff;
@@ -48,7 +53,7 @@ export class Header extends HTMLElement {
                     width: 0;
                     height: 2px;
                     background: #23582ff5;
-                    transition: .3s;
+                    transition: .5s;
                 }
                 
                 .navbar a:hover::before {
@@ -58,7 +63,7 @@ export class Header extends HTMLElement {
                 /*Dropdown das Energias*/
                 .dropdown {
                     position: relative;
-                    margin-right: 20px;
+                    margin-right: 20px;                    
                 }
                 
                 .dropdown-content {
@@ -109,3 +114,8 @@ export class Header extends HTMLElement {
         `;
   }
 }
+
+window.addEventListener("scroll", function(){
+    let header = document.querySelector('.header')
+    header.classList.toggle('rolagem', this.window.scrollY > 60)
+});
