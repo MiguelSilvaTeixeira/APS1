@@ -24,7 +24,7 @@ figure img.imagens-energias {
     margin: 0 auto;
 }
 
-h1, .legenda {
+h1{
     text-align: center;
 }
 
@@ -46,7 +46,7 @@ h2, h3 {
     padding: 15px 0 0 0;
 }
 
-p {
+p, .legenda {
     padding: 1% 0;
 }
 
@@ -59,7 +59,7 @@ p, li {
     text-align: justify;
 }
 
-ul {
+ul, ol {
     padding-left: 3%;
 }
 
