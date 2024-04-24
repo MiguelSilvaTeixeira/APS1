@@ -11,7 +11,7 @@ export class Header extends HTMLElement {
                     top: 0;
                     left: 0;
                     width: 100%;
-                    padding: 20px 100px;
+                    padding: 10px 75px;
                     background: #3e853c00;
                     display: flex;
                     justify-content: space-between;
@@ -21,7 +21,7 @@ export class Header extends HTMLElement {
                 }
                 
                 .header.rolagem {
-                    background: #3e853c;
+                    background: #137b0f;
                 }
 
                 .logo {
@@ -34,7 +34,11 @@ export class Header extends HTMLElement {
                 .navbar {
                     display: flex;
                 }
-                
+
+                .header a {
+                    margin-left: 55px;
+                }
+
                 .navbar a {
                     position: relative;
                     font-size: 18px;
@@ -92,7 +96,7 @@ export class Header extends HTMLElement {
                 }
             </style>
             <header class="header">
-                <a href="#" class="logo">Logo</a>
+                <a href="#" class="logo"><img width="35%" src="../assets/img/logo.png" alt="Logo"></a>
                 <nav class="navbar">
                     <a href="home.html">Home</a>
                     <div class="dropdown">
@@ -105,9 +109,9 @@ export class Header extends HTMLElement {
                             <a href="energia-geotermica.html">Energia Geotérmica</a>
                             <a href="energia-ondas-mares.html">Energia das Ondas e Marés</a>
                         </div>
-                    </div>
+                    </div>                    
                     <a href="trasportes-sustentaveis.html">Transportes Sustentáveis</a>
-                    <a href="transportes-alternativos.html">Transportes Alternativos</a>
+                    <a href="energias-sujas.html">Energias Sujas: malefícios</a>
                     <a href="sobre.html">Sobre</a>
                 </nav>
             </header>  
