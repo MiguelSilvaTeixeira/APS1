@@ -23,7 +23,7 @@ article.main-article {
 div.article-content {
   width: 100%;
   height: 100%;
-  padding: 0 8.5rem;
+  padding: 0 4vw;
   margin-top: 10%;
   display: flex;
   flex-direction: column;

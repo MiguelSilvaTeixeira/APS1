@@ -47,6 +47,9 @@ export class Header extends HTMLElement {
                     text-decoration: none;
                     margin-left: 45px;
                     margin-right: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }
                 
                 .navbar a::before {
@@ -67,12 +70,16 @@ export class Header extends HTMLElement {
                 /*Dropdown das Energias*/
                 .dropdown {
                     position: relative;
-                    margin-right: 20px;                    
+                    margin-right: 20px;   
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;                 
                 }
                 
                 .dropdown-content {
                     display: none;
                     position: absolute;
+                    top: 100%;
                     left: 40px;
                     background-color: rgba(220, 220, 220, 1);
                     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.566);
@@ -119,7 +126,7 @@ export class Header extends HTMLElement {
   }
 }
 
-window.addEventListener("scroll", function(){
-    let header = document.querySelector('.header')
-    header.classList.toggle('rolagem', this.window.scrollY > 60)
+window.addEventListener("scroll", function () {
+  let header = document.querySelector(".header");
+  header.classList.toggle("rolagem", this.window.scrollY > 60);
 });
