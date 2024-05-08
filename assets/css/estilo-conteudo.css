@@ -1,5 +1,6 @@
 .main-article {
     display: block;
+    min-height: 90vh;
     max-width: 85%;
     min-width: 40%;
     background-color: rgba(255, 255, 255, 0.681);
@@ -119,6 +120,6 @@ ul, ol {
 
 /*Legenda da página energia.geotermica.html*/
 .legenda-proximo-energia-geotermica {
-    top: 92.5%;
-    left: 96.2%;
+    top: 91.5%;
+    left: 96.45%;
 }

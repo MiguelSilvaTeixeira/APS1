@@ -10,7 +10,3 @@ body {
   min-height: 100vh;
   background: linear-gradient(-125deg, #047800c3, #93cf06c3);
 }
-
-main {
-  min-height: 90vh;
-}
