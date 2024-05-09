@@ -103,7 +103,7 @@ export class Header extends HTMLElement {
                 }
             </style>
             <header class="header">
-                <a href="#" class="logo"><img width="35%" src="../assets/img/logo.png" alt="Logo"></a>
+                <a href="home.html" class="logo"><img width="35%" src="../assets/img/logo.png" alt="Logo"></a>
                 <nav class="navbar">
                     <a href="home.html">Home</a>
                     <div class="dropdown">
