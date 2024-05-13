@@ -10,3 +10,12 @@ body {
   min-height: 100vh;
   background: linear-gradient(-125deg, #047800c3, #93cf06c3);
 }
+
+.tabela
+{
+    background-color: rgba(46, 88, 129, 0);
+    margin-left: 250px;
+    font-size: 20px;
+    width: 700px;
+    height: 100px;
+}

@@ -101,6 +101,7 @@ export class Header extends HTMLElement {
                 .dropdown:hover .dropdown-content {
                     display: block;
                 }
+
             </style>
             <header class="header">
                 <a href="home.html" class="logo"><img width="35%" src="../assets/img/logo.png" alt="Logo"></a>

@@ -25,6 +25,10 @@ export class Footer extends HTMLElement {
                     display: inline-block;
                     vertical-align: middle;
                     font-size: 18px;
+                }
+                mark 
+                {
+                    background-color: #39cf06c3;
                     color: #fff;
                 }
             </style>
@@ -34,7 +38,7 @@ export class Footer extends HTMLElement {
                         <img src="../assets/img/seta-para-cima.png" alt="Voltar ao topo" id="footer-top">
                     </a>
                 </abbr>
-                <p> Copyright &copy; 2024</p>
+                <mark><p>Copyright &copy; 2024</p><mark>
             </footer>
         `;
     }
