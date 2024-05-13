@@ -25,6 +25,7 @@ export class Footer extends HTMLElement {
                     display: inline-block;
                     vertical-align: middle;
                     font-size: 18px;
+                    text-indent: 0;
                 }
                 mark 
                 {
