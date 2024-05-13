@@ -120,6 +120,7 @@ export class Header extends HTMLElement {
                     </div>                    
                     <a href="trasportes-sustentaveis.html">Transportes Sustentáveis</a>
                     <a href="energias-sujas.html">Energias Sujas: malefícios</a>
+                    <a href="contato.html">Contato</a>
                     <a href="sobre.html">Sobre</a>
                 </nav>
             </header>  
