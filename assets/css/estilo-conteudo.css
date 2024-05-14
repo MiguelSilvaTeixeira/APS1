@@ -72,3 +72,54 @@ ul, ol {
     height: 50%;
     width: 50%;
 }
+
+/*Botões de voltar e próximo*/
+.link-proximo, .link-voltar, .legenda-proximo, .legenda-proximo-energia-geotermica,.img-proximo {
+    position:fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.link-proximo, .legenda-proximo, .legenda-proximo-energia-geotermica {
+    transform: translate(-50%,-50%);
+}
+
+.legenda-proximo, .legenda-proximo-energia-geotermica {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-indent: 0;
+}
+
+.img-voltar {
+    height: 50px;
+    width: 50px;
+}
+
+.link-voltar {
+    top: 200px;
+    left: 45px;
+}
+
+/*Botão próximo*/
+.img-proximo {
+    height: 50px;
+    width: 50px;
+}
+
+.link-proximo {
+    rotate: 180deg;
+    top: 85.8%;
+    left: 97.8%;
+}
+
+.legenda-proximo {
+    top: 88.5%;
+    left: 96.4%;
+}
+
+/*Legenda da página energia.geotermica.html*/
+.legenda-proximo-energia-geotermica {
+    top: 91.5%;
+    left: 96.45%;
+}
