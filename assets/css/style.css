@@ -11,8 +11,7 @@ body {
   background: linear-gradient(-125deg, #047800c3, #93cf06c3);
 }
 
-.tabela
-{
+.tabela {
     background-color: rgba(46, 88, 129, 0);
     margin-left: 250px;
     font-size: 20px;
@@ -20,8 +19,7 @@ body {
     height: 100px;
 }
 
-fieldset
-{
+fieldset {
   width: 400px;
   height: 100%;
   background-color: rgba(164, 199, 146, 0.84);
@@ -30,20 +28,17 @@ fieldset
   resize: none;
 }
 
-#form
-{
+#form {
     background-color: black;
 }
 
-td,th
-{
+td,th {
   text-align: center;
   border: 1px solid black;
 
 }
 
-textarea
-{
+textarea {
   resize: none;
   width: 80%;
 }
@@ -98,4 +93,3 @@ textarea
   top: 91.5%;
   left: 96.45%;
 }
-
