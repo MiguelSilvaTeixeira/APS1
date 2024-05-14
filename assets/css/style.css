@@ -63,8 +63,8 @@ fieldset {
   margin-top: 10px;
 }
 
-button {
-  background-color: #4CAF50;
+button, .swal-button {
+  background-color: #49c44f !important;
   color: white;
   border: none;
   border-radius: 5px;
@@ -73,8 +73,8 @@ button {
   cursor: pointer;
 }
 
-#formulario button:hover {
-  background-color: #45a049;
+#formulario button:hover, .swal-button:hover  {
+  background-color:#4CAF50 !important;
 }
 
 #formulario textarea {
