@@ -69,7 +69,7 @@
                   alt="Facebook"
                   class="box-content--icon"
               /></a>
-              <p>
+              <p id="bio">
                 <br />Experiência na área de infraestrutura e suporte a usuário.
                 <br />
                 <br />Completamente nova no universo da programação e
@@ -144,5 +144,27 @@
       </div>
     </main>
     <footer-component></footer-component>
+    <script>
+      var bio = document.getElementById("bio");
+      var bioText = bio.innerHTML;
+
+      if (bioText.length >= 135) {
+        bio.innerHTML =
+          bioText.substring(0, 135) +
+          '... <span id="readMore" onclick="showMore()" style="color: blue; cursor: pointer;"> Ler mais</span>';
+      }
+
+      function showMore() {
+        bio.innerHTML =
+          bioText +
+          ' <span id="readLess" onclick="showLess()" style="color: blue; cursor: pointer;"> Ler menos</span>';
+      }
+
+      function showLess() {
+        bio.innerHTML =
+          bioText.substring(0, 135) +
+          '... <span id="readMore" onclick="showMore()" style="color: blue; cursor: pointer;"> Ler mais</span>';
+      }
+    </script>
   </body>
 </html>
