@@ -12,7 +12,7 @@ export class Header extends HTMLElement {
                     left: 0;
                     width: 100%;
                     padding: 10px 75px;
-                    background: #3e853c00;
+                    background: transparent;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
@@ -21,7 +21,8 @@ export class Header extends HTMLElement {
                 }
                 
                 .header.rolagem {
-                    background: #137b0f;
+                    background: linear-gradient(20deg, #85b742, #94e04c);
+                    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
                 }
 
                 .logo {
