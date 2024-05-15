@@ -51,6 +51,11 @@ button, .swal-button {
     background-color:#4CAF50 !important;
 }
 
+.swal-text {
+    text-align: center !important;
+    padding: 0 40px !important;
+}
+
 #formulario textarea {
     width: 84%;
     resize: none;
