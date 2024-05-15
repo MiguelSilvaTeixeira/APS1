@@ -11,7 +11,7 @@
     color: #000000;
 }
 
-figure {
+figure, .legenda {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -71,6 +71,15 @@ ul, ol {
     padding: 10px;
     height: 50%;
     width: 50%;
+}
+
+table, td, th {
+    margin: 0 auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid black;
+    background-color: rgba(46, 88, 129, 0);
 }
 
 /*Botões de voltar e próximo*/
